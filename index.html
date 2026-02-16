@@ -1,89 +1,32 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>D. Vendas Online</title>
-<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
-<style>
-  /* Reset básico */
-  * { margin: 0; padding: 0; box-sizing: border-box; }
-  body {
-    font-family: 'Montserrat', sans-serif;
-    background: linear-gradient(135deg, #5865F2, #6C63FF);
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: white;
-  }
-  .container {
-    background: rgba(0,0,0,0.7);
-    padding: 50px;
-    border-radius: 20px;
-    text-align: center;
-    max-width: 400px;
-    width: 90%;
-    box-shadow: 0 0 30px rgba(0,0,0,0.5);
-    animation: fadeIn 1.2s ease;
-  }
-  .logo {
-    width: 100px;
-    height: 100px;
-    margin: 0 auto 20px;
-    animation: bounce 2s infinite;
-  }
-  h1 {
-    font-size: 36px;
-    margin-bottom: 20px;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-  }
-  p {
-    font-size: 18px;
-    margin-bottom: 30px;
-  }
-  button {
-    padding: 15px 40px;
-    font-size: 18px;
-    background: #00ff88;
-    color: #111;
-    border: none;
-    border-radius: 12px;
-    cursor: pointer;
-    transition: 0.3s;
-    font-weight: bold;
-  }
-  button:hover {
-    background: #00cc6a;
-    transform: scale(1.05);
-  }
-
-  @keyframes fadeIn {
-    from {opacity: 0; transform: translateY(-20px);}
-    to {opacity: 1; transform: translateY(0);}
-  }
-
-  @keyframes bounce {
-    0%, 100% { transform: translateY(0); }
-    50% { transform: translateY(-10px); }
-  }
-</style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Cool Webpage</title>
+    <style>
+        body {
+            background: linear-gradient(to right, purple, lightpurple);
+            color: white;
+            text-align: center;
+            font-family: Arial, sans-serif;
+        }
+        .fire-emojis {
+            font-size: 2rem;
+        }
+        .green-button {
+            background-color: green;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+    </style>
 </head>
 <body>
-
-<div class="container">
-  <img src="https://discord.com/assets/3437c10597c1526c3dbd98e50cf8163d.png" alt="Discord Logo" class="logo">
-  <h1>🔥 D. Vendas Online 🔥</h1>
-  <p>Clique no botão abaixo e entre no nosso Discord agora!</p>
-  <button onclick="entrarDiscord()">Entrar no Discord</button>
-</div>
-
-<script>
-function entrarDiscord() {
-  window.location.href = "https://discord.gg/SEULINK"; // substitua pelo seu link do Discord
-}
-</script>
-
+    <h1>Welcome to My Cool Webpage! <span class="fire-emojis">🔥🔥🔥</span></h1>
+    <p>This page is inspired by vibrant designs!</p>
+    <button class="green-button">Click Me!</button>
 </body>
 </html>
